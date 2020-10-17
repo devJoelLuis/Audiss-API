@@ -6,7 +6,7 @@ public class SenhaEncript {
 
 	public static void main(String[] args) {
 		BCryptPasswordEncoder enc = new BCryptPasswordEncoder();
-		System.out.println(enc.encode("cpd,9628"));
+		System.out.println(enc.encode(""));
 
 	}
 
